@@ -1,0 +1,378 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: url(img/logoBatistaOriginal-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 120px;
+    width: 320px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.h2 {
+    margin-bottom:0 ;
+    margin-top: 0;
+    color: rgb(53, 53, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 0.1em 0.11em 0.1em  black criar uma sombra em textos */
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mes {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.data {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* border-bottom: 2px solid black; */
+    color:white;
+    padding: 2px;
+    width: 310px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.text {
+    margin-bottom:1px;
+    margin-top:1px;
+    /* background-color: red; */
+    width: 250px;
+    text-align: center;
+}
+
+.teste {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+
+}
+.hrjan,.hrfev,.hrmarc,.hrabr,.hrmai,.hrjun,.hrjul,.hrago,.hrset,.hrout,.hrnov,.hrdez {
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.hrjan, #data1 {
+    background-image:linear-gradient(90deg,rgb(9, 20, 49),rgb(44, 59, 100),rgb(9, 29, 49));
+}
+.hrfev, #data2 {
+    background-image:linear-gradient(90deg,rgb(146, 97, 5), orange, rgb(146,97,5));
+}
+
+.hrmarc, #data3 {
+    background-image:linear-gradient(90deg, rgb(7, 36, 25),rgb(32,76,59),rgb(7,36,25));
+}
+
+.hrabr, #data4 {
+    background-image:linear-gradient(90deg, rgb(11, 2, 34),rgb(38,18,87),rgb(11,2,34));
+}
+
+.hrmai,#data5 {
+    background-image:linear-gradient(90deg, rgb(67, 14, 74),rgb(115,52,123),rgb(67,14,74));
+}
+
+.hrjun,#data6 {
+    background-image:linear-gradient(90deg, rgb(74, 13, 8),rgb(134,31,24), rgb(74,13,8));
+}
+
+.hrjul,#data7 {
+    background-image:linear-gradient(90deg, rgb(17, 39, 54),rgb(43,75,98),rgb(17,39,54));
+}
+
+.hrago,#data8 {
+    background-image:linear-gradient(90deg, rgb(25, 11, 83),rgb(60,38,147),rgb(25,11,83));
+}
+
+.hrset,#data9 {
+    background-image:linear-gradient(90deg, rgb(165, 126, 26), rgb(215, 169, 55), rgb(165, 126, 26));
+}
+
+.hrout,#data10 {
+    background-image: linear-gradient(90deg, rgb(13, 72, 119),rgb(47,158,250),rgb(13, 72, 119));
+}
+
+.hrnov,#data11 {
+    background-image:linear-gradient(90deg, rgb(26, 26, 26), rgb(73,73,73), rgb(26,26,26));
+}
+
+.hrdez,#data12 {
+    background-image:linear-gradient(90deg,rgb(57, 57, 57),rgb(154,154,152),rgb(57,57,57));
+}
+
+.mesdiv1,.mesdiv2,.mesdiv3,.mesdiv4,.mesdiv5,.mesdiv6,.mesdiv7,.mesdiv8,.mesdiv9,.mesdiv10,.mesdiv11,.mesdiv12 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 312px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.mesdiv1 {
+    background-image: url(img/mes1.jpg);
+    background-size: cover;
+
+}
+
+.mesdiv2 {
+    background-image: url(img/mes2.jpg);
+    background-size: cover;
+}
+
+.mesdiv3 {
+    background-image: url(img/mes3.jpg);
+    background-size: cover;
+}
+
+.mesdiv4 {
+    background-image: url(img/mes4.jpg);
+    background-size: cover;
+}
+
+.mesdiv5 {
+    background-image: url(img/mes5.jpg);
+    background-size: cover;
+}
+
+.mesdiv6 {
+    background-image: url(img/mes6.jpg);
+    background-size: cover;
+}
+
+.mesdiv7 {
+    background-image: url(img/mes7.jpg);
+    background-size: cover;
+}
+
+.mesdiv8 {
+    background-image: url(img/mes8.jpg);
+    background-size: cover;
+}
+
+.mesdiv9 {
+    background-image: url(img/mes9.jpg);
+    background-size: cover;
+}
+
+.mesdiv10 {
+    background-image: url(img/mes10.jpg);
+    background-size: cover;
+}
+
+.mesdiv11 {
+    background-image: url(img/mes11.jpg);
+    background-size: cover;
+
+}
+
+.mesdiv12 {
+    background-image: url(img/mes12.jpg);
+    background-size: cover;
+}
+
+#mes1{
+    color: rgb(28, 28, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes2{
+    color: rgb(124, 80, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes3{
+    color: rgb(0,41,45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes4{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes5{
+    color: rgb(41,27,88);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes6{
+    color: rgb(82,10,11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes7{
+    color: rgb(19,36,46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes8{
+    color: rgb(48, 27, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes9{
+    color: rgb(145, 110, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes10{
+    color: rgb(13, 90, 153);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes11{
+    color: rgb(41, 41, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mes12{
+    color: rgb(70, 70, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conjunto {
+    /* background-color: red; */
+    width: 1440px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 1440px) {
+    .conjunto {
+        width: 1370px;
+    }
+
+
+}
+
+@media(max-width: 1380px) {
+    .conjunto {
+        width: 1327px;
+    }
+
+
+}
+
+@media(max-width: 1340px) {
+    .conjunto {
+        width: 1300px;
+    }
+
+    
+}
+
+@media(max-width: 1326px) {
+    .conjunto {
+        width: 1200px;
+    }
+
+
+}
+
+
+
+@media(max-width: 1200px) {
+    .conjunto {
+        width: 1100px;
+    }
+
+}
+
+@media(max-width: 1100px) {
+    .conjunto {
+        width: 800px;
+    }
+
+    
+}
+
+@media(max-width: 800px) {
+    .conjunto {
+        width: 315px;
+    }
+
+    .hrjan,.hrfev,.hrmarc,.hrabr,.hrmai,.hrjun,.hrjul,.hrago,.hrset,.hrout,.hrnov,.hrdez {
+        width: 312px;
+        height: 5px;
+        border: 0px;
+        margin: 2px;
+    }
+}
+
+@media(max-width: 315px) {
+
+    .data {
+        width: 250px;
+    }
+    
+    #mesimg {
+        width: 250px;
+    }
+
+    .top {
+        width: 250px;
+        text-align: center;
+    }
+
+    .img {
+        width: 250px;
+    }
+
+    .container {
+        width: 250px;
+    }
+
+    .conjunto {
+        width: 250px;
+    }
+
+    .hrjan,.hrfev,.hrmarc,.hrabr,.hrmai,.hrjun,.hrjul,.hrago,.hrset,.hrout,.hrnov,.hrdez {
+        width: 250px;
+    }
+}
+
+
