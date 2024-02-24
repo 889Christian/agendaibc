@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .img {
@@ -285,8 +285,6 @@ body {
     .conjunto {
         width: 1370px;
     }
-
-
 }
 
 @media(max-width: 1380px) {
@@ -294,15 +292,13 @@ body {
         width: 1327px;
     }
 
-
+    
 }
 
 @media(max-width: 1340px) {
     .conjunto {
         width: 1300px;
     }
-
-    
 }
 
 @media(max-width: 1326px) {
@@ -310,7 +306,9 @@ body {
         width: 1200px;
     }
 
-
+    a {
+        width: 120px;
+    }
 }
 
 
@@ -319,15 +317,12 @@ body {
     .conjunto {
         width: 1100px;
     }
-
 }
 
 @media(max-width: 1100px) {
     .conjunto {
         width: 800px;
     }
-
-    
 }
 
 @media(max-width: 800px) {
@@ -341,6 +336,48 @@ body {
         border: 0px;
         margin: 2px;
     }
+    .top {
+        text-align: center;
+    }
+}
+
+@media(max-width:350px){
+
+    .data {
+        width: 290px;
+    }
+    
+    #mesimg {
+        width: 290px;
+    }
+
+    .top {
+        width: 290px;
+        text-align: center;
+    }
+
+    .img {
+        width: 290px;
+    }
+
+    .container {
+        width: 290px;
+        align-items: center;
+    }
+
+    .conjunto {
+        width: 280px;
+    }
+
+    .hrjan,.hrfev,.hrmarc,.hrabr,.hrmai,.hrjun,.hrjul,.hrago,.hrset,.hrout,.hrnov,.hrdez {
+        width: 290px;
+    }
+
+    .button{
+        width: 20px;
+    }
+
+
 }
 
 @media(max-width: 315px) {
@@ -363,7 +400,7 @@ body {
     }
 
     .container {
-        width: 250px;
+        width: 290px;
     }
 
     .conjunto {
@@ -373,6 +410,20 @@ body {
     .hrjan,.hrfev,.hrmarc,.hrabr,.hrmai,.hrjun,.hrjul,.hrago,.hrset,.hrout,.hrnov,.hrdez {
         width: 250px;
     }
+
+    .button{
+        width: 20px;
+    }
+
+   
+}
+
+a {
+    text-decoration: none;
+    color: rgb(13, 93, 173);
+    font-size: 20px;
+    width: 120px;
+    margin-left: 10px;
 }
 
 
